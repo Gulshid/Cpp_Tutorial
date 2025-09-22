@@ -55,13 +55,4 @@ int main()
     cout<< "The bool size is :"<<sizeof(bool)<<" byte "<<endl;
     cout<<"The string size is :"<<sizeof(string)<< "byte "<<endl;
 
-
-
-
-
-
-
-
-
-
 }
