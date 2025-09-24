@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    // Arthematic Operator 
+                // Arthematic Operator 
     float a =22;
     float b =5;
 
@@ -19,8 +19,10 @@ int main()
     //Operation for Modulas
     cout<<"Reminder of two value is :"<<fmod(a,b)<<endl;
 
+// ************************************************************* 
 
-    //Relational Operator
+
+                 //Relational Operator
     int x= 10;
     int y= 30;
 
@@ -36,7 +38,64 @@ int main()
 
     x >= y;// check if the value of x is greater or equal display "The value of x is greater or equal to y"
     x <= y; // check if the value of x is less or equal than display "The value of x is less than or equal to y"
-    
+// ************************************************************* 
+
+               // Logical Operator 
+
+// ***** && Operator Concept ******
+    // True : True  ====>True
+    // True : False  ====>False
+    // False : True  ====>False
+    // False : False  ====>False
+
+
+// ***** || Operator Concept ******
+    // True : True  ====>True
+    // True : False  ====>True
+    // False : True  ====>True
+    // False : False  ====>False
+
+// ***** ! Operator Concept ******
+    // !True  ====>False
+    // !False  ====>True
+
+    int u =30; 
+    int r= 20;
+
+    u > r && r < u ; // if two condition output was true then it display true 
+    u > r || r < u ; // if any one condition become true then it display true
+    u != r ; // u true then false or r true then false 
+
+// ************************************************************* 
+               //Bitwise Operator
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+    int a =5 ; // convert into binary code
+    int b= 2; //  convert into binary code
+
+    cout<<"Bitwise & "<<(a & b)<<endl;
+    cout<<"Bitwise | "<<(a | b)<<endl;
+    cout<<"Bitwise ^ "<<(a ^ b)<<endl;
+    cout<<"Bitwise ~ "<<(~a)<<endl;
+}
 
 
 }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
