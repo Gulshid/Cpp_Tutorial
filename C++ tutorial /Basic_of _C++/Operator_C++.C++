@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    // ************************************************************* 
                 // Arthematic Operator 
     float a =22;
     float b =5;
@@ -83,6 +84,55 @@ int main()
     cout<<"Bitwise ~ "<<(~a)<<endl;
 }
 
+
+}
+
+// ************************************************************* 
+
+    // Assignment Operators
+#include<iostream>
+using namespace std;
+
+int main()
+{
+ //= operator
+    int x = 6;
+cout<<"= Operaror :"<<x<<endl;
+
+//+= Operator
+x +=2;
+cout<<"+= Operator :"<<x<<endl;
+
+//-= Ooperator
+x -=3;
+cout<<"-= Operator:"<<x<<endl;
+
+//*= Operator
+x *= 8;
+cout<<"* = Ooperator :"<<x<<endl;
+
+// /= Operator
+x /=4;
+cout<<"/= Operator:"<<x<<endl;
+
+// %= Operator
+x %=5;
+cout<<"%= Operator :"<<x<<endl;
+
+}
+// ************************************************************* 
+
+        // Ternary Operator
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int value_1 = 20;
+    int value_2 = 40;
+
+    value_1 > value_2 ? cout<< "The value_1 is greater than value_2" :  cout<<"The value_2 is greater than value_1";
 
 }
     
