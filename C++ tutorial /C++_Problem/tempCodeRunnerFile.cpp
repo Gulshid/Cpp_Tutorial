@@ -1,1 +1,1 @@
-  // fact = fact * cal;
+ // Is_prime = true;
