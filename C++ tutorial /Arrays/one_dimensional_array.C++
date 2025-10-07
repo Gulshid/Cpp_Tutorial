@@ -11,7 +11,7 @@ int main()
 
 
   // indexing ---> Size[4]= 0,1,2,3
-  // int x [3]={1,2,3}; //start from 0,1,2,3 ....
+  int x [3]={1,2,3}; //start from 0,1,2,3 ....
 
 
   int x[4]={1,2,3,4}; //1-  One Dimensional array 
@@ -28,6 +28,28 @@ int main()
   }
 
   cout<<endl;
+
+  // Runtime input from user 
+  int var_1[5];
+  cout<<"Enter the values for var_1:"<<endl;
+
+  // Runtime User input
+  for(int i = 0; i < 5; i++)
+  {
+    cin>>var_1[i];
+  }
+
+  //Display the Output
+
+  for(int j = 0; j < 5; j++)
+  {
+    cout<<var_1[j]<<" ";
+  }
+
+  cout<<"\n";
+
+
+
 
 
 
