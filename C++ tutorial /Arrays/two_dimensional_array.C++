@@ -18,7 +18,7 @@ int main()
     cout<<arr[1][0]<<" "<<arr[1][1]<<endl;
     cout<<arr[2][0]<<" "<<arr[2][1]<<endl;
 
-cout<<"********************"<<endl;
+cout<<"********* 3 X 2 ***********"<<endl;
     // Display the array values by loop Method
 
     for(int i = 0; i < 3; i++ ) // for rows
@@ -29,7 +29,7 @@ cout<<"********************"<<endl;
         }
         cout<<endl;
     }
-
+cout<<"********************"<<endl;
 
 // How to take an Input values from User at Runtime  in 2D Array
 int array[3][2]; // 3X2 Matr. 
