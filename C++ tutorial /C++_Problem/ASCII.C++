@@ -10,7 +10,7 @@ int main()
     cin>>ascii_code;
 
 
-    // initialize int dataype 
+    // initialize int datatype 
     int ASCII = ascii_code;
 
 
