@@ -140,33 +140,44 @@
 //     B b;
 
 // }
-// #include<iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// class Animal {
-// public:
-//     virtual void sound() {
-//         cout << "Animal sound" << endl;
-//     }
-// };
+// Base class
+class Animal {
+public:
+    virtual void sound() {  // virtual function
+        cout << "Animal makes a sound" << endl;
+    }
+};
 
-// class Dog : public Animal {
-// public:
-//     void sound() {
-//         cout << "Dog barks" << endl;
-//     }
-// };
+// Derived class 1
+class Dog : public Animal {
+public:
+    void sound()  {  // override keyword (optional but good practice)
+        cout << "Dog barks" << endl;
+    }
+};
 
-// int main() {
-//     Animal a;   // normal object
-//     Dog d;      // derived
-    
-//     Animal *ptr;
+// Derived class 2
+class Cat : public Animal {
+public:
+    void sound()  {
+        cout << "Cat meows" << endl;
+    }
+};
 
-//     ptr = &a;
-//     ptr->sound();   // Animal sound
+int main() {
+    Animal* a; // Base class pointer
 
-//     ptr = &d;
-//     ptr->sound();   // Dog barks
-// }
+    Dog d;
+    Cat c;
 
+    a = &d;
+    a->sound();  // Output: Dog barks
+
+    a = &c;
+    a->sound();  // Output: Cat meows
+
+    return 0;
+}
