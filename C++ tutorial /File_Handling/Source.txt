@@ -1,0 +1,5 @@
+*** Adding of two value ***
+a = 20
+b = 10
+c = a + b
+d = 30
